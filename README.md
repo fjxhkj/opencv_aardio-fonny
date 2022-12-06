@@ -1,4 +1,35 @@
+# 第三方库 `cv2`
+
+## 源码
+
+```
+# Fonny fork
+https://github.com/fjxhkj/opencv_aardio-fonny.git
+
+# 原版仓库
+https://github.com/xuncv/opencv_aardio.git
+```
+
+## `aardio` 库同步路径
+
+```sh
+d:\dev\AAuto10\_projects\opencv_aardio\lib\cv2
+```
+
+## `.build\main.aardio` 文件参考
+
+> 这个文件用于项目发布时,将依赖的文件自动拷贝到发布目录中
+
+```
+d:\dev\AAuto10\aardio\lib\zbar\.build\main.aardio
+```
+
+
+
+
+
 # opencv_aardio
+
 **opencv_aardio**是使用aardio封装的OpenCV开源计算机视觉库.接口实现上尽量接近[opencv-python](https://pypi.org/project/opencv-python/)风格,以降低学习成本.本库适配最新OpenCV 4.5.3
 
 ### 依赖项目:
